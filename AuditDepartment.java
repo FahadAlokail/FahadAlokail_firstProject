@@ -17,7 +17,7 @@ public class AuditDepartment {
 		nbEmp=0;
 	}
 	
-	public int search(int id) {
+	public int find(int id) {
 		for(int i=0;i<nbEmp;i++) {
 			if(id==arrEmp[i].getId()) {
 				return i;
